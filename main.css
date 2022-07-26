@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.contenedor {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.elemento1 {
+    border-radius: 1rem 0 0 1rem;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    height: 35rem;
+}
+
+.elemento2 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 1rem 1rem 0;
+    padding: 3rem;
+    overflow: hidden;
+    width: 23rem;
+    height: 35rem;
+}
+
+.elemento2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 5px;
+    padding-bottom: 1.5rem;
+}
+
+.elemento2 h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 1;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.elemento2 p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.7;
+    padding-bottom: 2rem;
+}
+
+.elemento2 h3 span {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+.elemento2 h3 {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.elemento2 .boton {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: .5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elemento2 .boton span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    padding: 0 10px;
+}
